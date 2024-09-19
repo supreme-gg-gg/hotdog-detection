@@ -5,11 +5,11 @@ This project will fine tune the YOLOv8 model on a custom hotdog dataset using Ul
 [YOLOv8 by Ultralytics](https://github.com/ultralytics/ultralytics)
 [A list of YOLOv8 Performance Metrics](https://docs.ultralytics.com/guides/yolo-performance-metrics/)
 
-**Please note that the model is only trained on 50 epochs for time efficiency while the recommended by Ultralytics is 300 epochs. This could be the cause for certain performance issues.**
+**Please note that the model is only trained on 50 epochs for time efficiency while the recommended by Ultralytics is 300 epochs. This could be the cause for certain performance issues. You should train it for more epoch using steps below.**
 
 ## Overview
 
-It is assumed that the user has the dataset prepared. The folder inclues a script to fine-tune the pre-trained model and to make inference calls on a particular image.
+The repo inclues a script to fine-tune the pre-trained model and to make inference calls on a particular image. The dataset is compressed and uploaded as `data.zip` that you should unzip on your local device on Colab in order to perform training and validation.
 
 Using a dataset of only 2000 images, it is impossible to train an object detection model of any architecture from scratch. Therefore, fine-tuning on custom dataset is a more preferably and efficient technique when approaching this particular vision project.
 
