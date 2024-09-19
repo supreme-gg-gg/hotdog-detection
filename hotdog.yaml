@@ -1,0 +1,9 @@
+path: /content/data
+train: train
+val: valid
+test: # test images (optional)
+
+# Classes
+nc: 1
+names:
+  0: hotdog
